@@ -27,4 +27,16 @@ must be preserved. Contributors provide an express grant of patent rights.*
 *For more information in reggards of this repo, please contact name@email.com*
 
 
-sources // source: https://medium.com/javascript-by-doing/learn-fisher-yates-shuffle-in-javascript-275881d36650
+source: 
+https://medium.com/javascript-by-doing/learn-fisher-yates-shuffle-in-javascript-275881d36650
+https://labyrinthos.co/blogs/tarot-card-meanings-list
+
+Tarot Reading 3 card split
+
+1. Romance card.
+2. Finances card. 
+3. Career card.
+
+ESPECIAL MESSAGE IF ALL YOUR CARDS ARE FROM THE MAJOR ARCANA OR SAME SUIT 
+
+fihser yates link every permutation is waqully pssible
