@@ -981,24 +981,24 @@ const tarot = {
     _aceC: {
         _name: 'Ace of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'love, new feelings, emotional awakening, creativity, spirituality, intuition',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'new romance, friendship, next level in relationship, deeper intimacy',
+                    _career: 'friendly relations at work, new emotions about job, jolt of creativity',
+                    _finance: 'financial assistance, happy financial news, creativity in earning money'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'coldness, emptiness, emotional loss, blocked creativity, feeling unloved, gloominess',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'sadness, separation, vulnerability, insecurity in the way of love',
+                    _career: 'feeling unmotivated and bored at job, unfriendly colleagues',
+                    _finance: 'disappointing news, frustration and sadness regarding finances'
                 },
             },
         },
@@ -1006,26 +1006,26 @@ const tarot = {
     },
     
     _2C: {
-        _name: 'Two of Wands',
+        _name: 'Two of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'unity, partnership, attraction, connection, close bonds, joining forces, mutual respect',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'starting a relationship, mutually beneficial relationship, working together as a team',
+                    _career: 'good relationships with colleagues, helpful business partnership',
+                    _finance: 'balanced finances, financial security, not financially stressed'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'separation, rejection, division, imbalance, tension, bad communication, withdrawal',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'relationship imbalance, codependency, uneven power dynamics',
+                    _career: 'bad business partnerships, tension and conflict with colleagues ',
+                    _finance: 'spending more than you are earning, going over budget'
                 },
             },
         },
@@ -1033,26 +1033,26 @@ const tarot = {
     },
     
     _3C: {
-        _name: 'Three of Wands',
+        _name: 'Three of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'friendship, community, gatherings, celebrations, group events, social events',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'friendship turning to romance, social gatherings leading to romance',
+                    _career: 'planning a celebration at work, happy and joyous office environment',
+                    _finance: 'spending on social life, financial stability, reaching financial milestone'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'gossip, scandal, excess, isolation, loneliness, solitude, imbalanced social life',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'short but exciting romance, third party coming in between you',
+                    _career: 'work events not going as planned, destructive office environment',
+                    _finance: 'over spending on social gatherings, giving beyond your means'
                 },
             },
         },
@@ -1060,26 +1060,26 @@ const tarot = {
     },
     
     _4C: {
-        _name: 'Four of Wands',
+        _name: 'Four of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'apathy, contemplation, feeling disconnected, melancholy, boredom, indifference, discontent',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'bored with love life, lack of excitement in relationship',
+                    _career: 'bored with job, feeling unhappy with job or career, lack of progress',
+                    _finance: 'feeling disillusioned with money, envious of others'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'clarity, awareness, acceptance, choosing happiness, depression, negativity',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'being more active in love, new understanding of love',
+                    _career: 'new inspiration or creativity, realizations about career, adjustments',
+                    _finance: 'positive approach to finances, willpower to achieve financial goals'
                 },
             },
         },
@@ -1087,26 +1087,26 @@ const tarot = {
     },
     
     _5C: {
-        _name: 'Five of Wands',
+        _name: 'Five of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'loss, grief, disappointment, sadness, mourning, discontent, feeling let down',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'grieving break up, time of tension and sadness in relationship',
+                    _career: 'taking a step backward in your career, job loss, business loss',
+                    _finance: 'financial loss, still things left to salvage'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'acceptance, moving on, finding peace, contentment, seeing positives',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'moving on from past relationship, healing from old wounds',
+                    _career: 'job loss leading to better position, healing from career misstep',
+                    _finance: 'relief from financial loss, rebuilding financial security'
                 },
             },
         },
@@ -1114,26 +1114,26 @@ const tarot = {
     },
     
     _6C: {
-        _name: 'Six of Wands',
+        _name: 'Six of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'nostalgia, memories, familiarity, healing, comfort, sentimentality, pleasure',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'reconnecting with ex, reliving happy memories, healing after breakup',
+                    _career: 'returning to previous work, not repeating past mistakes, learning career lessons',
+                    _finance: 'moving back in with parents, financial gifts, sharing finances'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'stuck in past, moving forward, leaving home, independence',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'unable to move on, clinging to past loves, failure to live in present',
+                    _career: 'leaving comfort of job, staying in stale job, repeating negative patterns',
+                    _finance: 'financially independent, leaving parental home'
                 },
             },
         },
@@ -1141,26 +1141,26 @@ const tarot = {
     },
     
     _7C: {
-        _name: 'Seven of Wands',
+        _name: 'Seven of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'choices, searching for purpose, illusion, fantasy, daydreaming, wishful thinking, indecision',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'choosing between lovers, be cautious about romantic decisions',
+                    _career: 'many career options, make a choice and stick to it',
+                    _finance: 'several financial opportunities, caution about financial choices'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'lack of purpose, disarray, confusion, diversion, distractions, clarity, making choices',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'chaotic and confusing love life, avoiding romantic decisions, clarity about love',
+                    _career: 'lack of career options, missed opportunities, creating clear career vision',
+                    _finance: 'financial clarity, distraction from financial goals, lack of financial goals'
                 },
             },
         },
@@ -1168,26 +1168,26 @@ const tarot = {
     },
     
     _8C: {
-        _name: 'Eight of Wands',
+        _name: 'Eight of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'abandonment, walking away, letting go, searching for truth, leaving behind',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'leaving unhappy relationship, abandonment issues',
+                    _career: 'leaving unhappy relationship, abandonment issues',
+                    _finance: 'choosing happiness over financial security'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'stagnation, monotony, accepting less, avoidance, fear of change, staying in bad situation',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'staying in a bad relationship, fear of being alone',
+                    _career: 'accepting unfulfilling job, fear of change',
+                    _finance: 'choosing financial security over happiness'
                 },
             },
         },
@@ -1195,26 +1195,26 @@ const tarot = {
     },
     
     _9C: {
-        _name: 'Nine of Wands',
+        _name: 'Nine of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'wishes coming true, contentment, satisfaction, success, achievements, recognition, pleasure',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'appreciating current love life, positivity leading to romance, cheerful romance',
+                    _career: 'satisfying career, recognition and respect at work, avoid being overconfident',
+                    _finance: 'abundance, financial comfort, financial security, material rewards'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'unhappiness, lack of fulfilment, disappointment, underachievement, arrogance, snobbery',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'lack of deeper connection, superficial relationship, inner work needed',
+                    _career: 'dream job not what you expected, career expectations not met',
+                    _finance: 'failed financial goals, no returns on investing your resources'
                 },
             },
         },
@@ -1222,26 +1222,26 @@ const tarot = {
     },
     
     _10C: {
-        _name: 'Ten of Wands',
+        _name: 'Ten of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'happiness, homecomings, fulfillment, emotional stability, security, domestic harmony',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'commitment, taking next step in relationship, long term stability, lasting relationship',
+                    _career: 'feeling of belonging at work, camaraderie between colleagues, fulfilling and supportive job',
+                    _finance: 'financial stability and security, a feeling of having enough'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'unhappy home, separation, domestic conflict, disharmony, isolation​',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'meddling relatives, a short fling, external forces affecting relationship',
+                    _career: 'hostile workplace, tensions between colleagues, isolation at workplace',
+                    _finance: 'arguments with family over finances, financial instability'
                 },
             },
         },
@@ -1249,26 +1249,26 @@ const tarot = {
     },
     
     _pC: {
-        _name: 'Page of Wands',
+        _name: 'Page of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'idealism, sensitivity, dreamer, naivete, innocence, inner child, head in the clouds',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'fresh perspective on relationship, awe and wonder at love and romance',
+                    _career: 'finding a creative outlet at work, daydreams about career paths',
+                    _finance: 'unrealistic financial goals, daydreams without putting in effort'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'emotional vulnerability, immaturity, neglecting inner child, escapism, insecurity',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'a shy, vulnerable partner, emotionally immature partner, insecurity in romance',
+                    _career: 'emotional vulnerability at work, insecurity at work, creative blocks',
+                    _finance: 'being in denial about finances, avoiding financial decisions'
                 },
             },
         },
@@ -1276,26 +1276,26 @@ const tarot = {
     },
     
     _knightC: {
-        _name: 'Knight of Wands',
+        _name: 'Knight of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'idealist, charming, artistic, graceful, tactful, diplomatic, mediator, negotiator',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'romance, attraction, flirtation, being in love with love, unrealistic expectations of love',
+                    _career: 'diplomacy at work, tactfulness creates better team cohesion, creative solutions',
+                    _finance: 'mediating disputes about finances, using creativity to achieve financial goals'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'disappointment, tantrums, moodiness, turmoil, avoiding conflict, vanity',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'avoiding conflict in love, passive aggressive partner, quickly changing feelings, false appearances',
+                    _career: 'tensions and moodiness at work, avoiding work confrontation',
+                    _finance: 'avoiding financial decisions, financial disappointment'
                 },
             },
         },
@@ -1303,22 +1303,755 @@ const tarot = {
     },
     
     _qC: {
-        _name: 'Queen of Wands',
+        _name: 'Queen of Cups',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Cups',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'compassion, warmth, kindness, intuition, healer, counsellor, supportive',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'caring and supportive nature brings suitors, deepening existing relationships',
+                    _career: 'taking the role of carer at work, seeking out support and compassion at work',
+                    _finance: 'using resources to care for others, giving, charity, generosity'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'insecurity, giving too much, overly-sensitive, needy, fragile, dependence, martyrdom',
+                _meaning: {
+                    _love: 'a dependent or clingy lover, putting more effort in than partner, overly-sensitive lover',
+                    _career: 'emotional exhaustion at work, neglecting your own emotional health for job',
+                    _finance: 'being too generous, neglecting own financial health for others'
+                },
+            },
+        },
+
+    },
+    
+    _kingC: {
+        _name: 'King of Cups',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Cups',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'wise, diplomatic, balance between head and heart, devoted, advisor, counsellor',
+                _meaning: {
+                    _love: 'using head and heart in love, a compassionate but calming partner',
+                    _career: 'balancing emotional, practical and logical needs, wisdom leads to respect and admiration',
+                    _finance: 'financial stability, being realistic but hopeful about finances'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'overwhelmed, anxious, cold, repressed, withdrawn, manipulative, selfish',
+                _meaning: {
+                    _love: 'manipulation, deceit and selfishness in love, being lead on or used, not putting in effort',
+                    _career: 'selfishness at work, staying at job despite lack of emotional fulfillment',
+                    _finance: 'out of control spending, bad financial judgement, emotional financial choices'
+                },
+            },
+        },
+
+    },
+
+     // SEPARATION SUITS OF Swords
+
+     _aceS: {
+        _name: 'Ace of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'clarity, breakthrough, new idea, concentration, vision, force, focus, truth',
+                _meaning: {
+                    _love: 'attracted to discussion, facing problems honestly, communication',
+                    _career: 'stimulating work environment, clear communication, focus',
+                    _finance: 'think rationally, avoid emotional decisions with money'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'confusion, miscommunication, hostility, arguments, destruction, brutality',
+                _meaning: {
+                    _love: 'failure to communicate, clashing perspectives, painful words',
+                    _career: 'failure to communicate, unable to express thoughts clearly, boredom',
+                    _finance: 'double check finances, statements or legal documents'
+                },
+            },
+        },
+
+    },
+    
+    _2S: {
+        _name: 'Two of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'stalemate, difficult choices, stuck in the middle, denial, hidden information',
+                _meaning: {
+                    _love: 'choosing between lovers, choosing between love / family / work',
+                    _career: 'choosing between career paths, conflicts at work, taking sides',
+                    _finance: 'avoiding financial decisions, unclear finances'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'indecision, hesitancy, anxiety, too much information, no right choice, truth revealed',
+                _meaning: {
+                    _love: "no suitor is right for you, cant prioritize love / family / work",
+                    _career: 'choices with no winner, stressful decisions',
+                    _finance: 'realizing truth, accepting financial position'
+                },
+            },
+        },
+
+    },
+    
+    _3S: {
+        _name: 'Three of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'heartbreak, separation, sadness, grief, sorrow, upset, loss, trauma, tears',
+                _meaning: {
+                    _love: 'breakup, argument, conflict, separation, sadness and tears',
+                    _career: 'conflicts at work, job loss, hurt feelings at work, feeling hopeless',
+                    _finance: 'loss of assets, division of assets after break up'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'healing, forgiveness, recovery, reconciliation, repressing emotions',
+                _meaning: {
+                    _love: 'forgiving one another, moving on after pain, separation',
+                    _career: 'putting conflicts behind, developing better processes',
+                    _finance: 'building savings, finding stability, severe grief about finances'
+                },
+            },
+        },
+
+    },
+    
+    _4S: {
+        _name: 'Four of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'rest, relaxation, peace, sanctuary, recuperation, self-protection, rejuvenation',
+                _meaning: {
+                    _love: 'withdrawing from love life, alone time, taking a break',
+                    _career: 'taking a vacation, mental health day, rest, self-care',
+                    _finance: 'anxiety about finances, avoid overthinking about money'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'recovery, awakening, re-entering world, release from isolation, restlessness, burnout',
+                _meaning: {
+                    _love: 'anxiety about finances, avoid overthinking about money',
+                    _career: 'refreshed from vacation or time off, burning out',
+                    _finance: 'not accepting support, recovery from financial pressure'
+                },
+            },
+        },
+
+    },
+    
+    _5S: {
+        _name: 'Five of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'arguments, disputes, aggression, bullying, intimidation, conflict, hostility, stress',
+                _meaning: {
+                    _love: 'tension, conflict, arguments, fights, irritability, wanting to be right',
+                    _career: 'workplace bully, intimidation, defensive attitudes, hostility',
+                    _finance: 'conflicts about money, being taken advantage of'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'reconciliation, resolution, compromise, revenge, regret, remorse, cutting losses',
+                _meaning: {
+                    _love: 'getting back together, forgiveness, breakup',
+                    _career: 'compromises, open dialogue, sabotage',
+                    _finance: 'loosening of financial tension, relief'
+                },
+            },
+        },
+
+    },
+    
+    _6S: {
+        _name: 'Six of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'moving on, departure, leaving behind, distance, accepting lessons',
+                _meaning: {
+                    _love: 'moving on from relationship, reconciling after fight',
+                    _career: 'leaving stressful workplace, moving to new role',
+                    _finance: 'finding material stability again, learned lessons'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'stuck in past, returning to trouble, running away from problems, trapped',
+                _meaning: {
+                    _love: 'cant move on, cant let go, haunted',
+                    _career: 'creating conflicts, self-sabotage, trapped at job',
+                    _finance: 'avoiding dealing with finances'
+                },
+            },
+        },
+
+    },
+    
+    _7S: {
+        _name: 'Seven of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'lies, trickery, scheming, strategy, resourcefulness,sneakiness, cunning',
+                _meaning: {
+                    _love: 'lies and deception, affair, sparing feelings, feeling suspicious',
+                    _career: 'gossip, sabotage, jealousy at work, working strategically',
+                    _finance: 'shady business deals, fraud, theft, scams'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'confession, conscience, regret, maliciousness, truth revealed',
+                _meaning: {
+                    _love: 'lies revealed, end of playing games, dropping pretension',
+                    _career: 'liars exposed, consequences of actions, changing approach',
+                    _finance: 'consequences of dishonesty in finances'
+                },
+            },
+        },
+
+    },
+    
+    _8S: {
+        _name: 'Eight of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'trapped, restricted, victimised, paralysed, helpless, powerless, imprisonment',
+                _meaning: {
+                    _love: 'feeling trapped, suffocated, smothered, passive in love life',
+                    _career: 'dependence on job, can’t change careers, fear of job changes',
+                    _finance: 'anxiety about money, can’t see financial opportunity'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'freedom, release, taking control, survivor, facing fears, empowered, surrender',
+                _meaning: {
+                    _love: 'clearer perspective of relationship, active role in love life',
+                    _career: 'new job to reach potential, freedom from anxiety, continued struggle',
+                    _finance: 'lessened anxiety, intensified anxiety, fears clouding truth'
+                },
+            },
+        },
+
+    },
+    
+    _9S: {
+        _name: 'Nine of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'fear, anxiety, negativity, breaking point, despair, nightmares, isolation',
+                _meaning: {
+                    _love: 'not trusting partner, suspicious of partner, regret from past',
+                    _career: 'anxiety, paranoia, stress from work, no coping mechanisms',
+                    _finance: 'panic about finances, all-consuming worries, feeling deprived'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'recovery, learning to cope, facing life, finding help, shame, guilt, mental health issues',
+                _meaning: {
+                    _love: 'getting help from partner, alleviating stress by sharing',
+                    _career: 'clarity about work, finding peace, stresses becoming real',
+                    _finance: 'clarity about finances, peace, poverty, lack of resources'
+                },
+            },
+        },
+
+    },
+    
+    _10S: {
+        _name: 'Ten of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'ruin, failure, bitterness, collapse, exhaustion, dead end, victimization, betrayal',
+                _meaning: {
+                    _love: 'breakup, separation, sadness, grief, pain, infidelity',
+                    _career: 'loss of job, office politics, breakdown from stress, burnout',
+                    _finance: 'financial loss, failed investment'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'survival, improvement, healing, lessons learned, despair, relapse',
+                _meaning: {
+                    _love: 'healing from past, putting relationship back together',
+                    _career: 'changed jobs, found less stressful work',
+                    _finance: 'avoided financial ruin or bankruptcy'
+                },
+            },
+        },
+
+    },
+    
+    _pS: {
+        _name: 'Page of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'curious, witty, chatty, communicative, inspired, vigilant, alert, mental agility',
+                _meaning: {
+                    _love: 'intellectual relationship, lack of emotional intimacy',
+                    _career: 'ambitious, intelligent person, new career, education',
+                    _finance: 'financial curiosity, ideas for making money'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'scatterbrained, cynical, sarcastic, gossipy, insulting, rude, lack of planning',
+                _meaning: {
+                    _love: 'argumentative, defensive partner, failure to communicate',
+                    _career: 'job-hopping, unsure about future career, office gossip',
+                    _finance: 'overanalyzing finances, research but no action'
+                },
+            },
+        },
+
+    },
+    
+    _knightS: {
+        _name: 'Knight of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'assertive, direct, impatient, intellectual, daring, focused, perfectionist, ambitious',
+                _meaning: {
+                    _love: 'fears about intimacy, easily bored partner, decisive action',
+                    _career: 'getting things done, focus on career, efficiency, making big moves',
+                    _finance: 'focus on financial goals, taking action on financial goals'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'rude, tactless, forceful, bully, aggressive, vicious, ruthless, arrogant',
+                _meaning: {
+                    _love: 'aggressive partner, bullying, abuse, intense arguments',
+                    _career: 'ruthless or vicious at work, arrogance, intimidation',
+                    _finance: 'fraud, scams, coercion, shady financial deals'
+                },
+            },
+        },
+
+    },
+    
+    _qS: {
+        _name: 'Queen of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'honest, independent, principled, fair, constructive criticism, objective, perceptive',
+                _meaning: {
+                    _love: 'picky about lovers, independent partner, boundaries',
+                    _career: 'constructive criticism, wise guidance, respect in field',
+                    _finance: 'acting with logic and reason, financial clarity'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'pessimistic, malicious, manipulative, harsh, bitter, spiteful, cruel, deceitful, unforgiving',
+                _meaning: {
+                    _love: 'trauma, toxic relationship, manipulation, cruelty',
+                    _career: 'cruel coworker, excessive negativity, poor communication',
+                    _finance: 'financial confusion, failure to make logical financial decisions'
+                },
+            },
+        },
+
+    },
+    
+    _kingS: {
+        _name: 'King of Swords',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Swords',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'reason, authority, discipline, integrity, morality, serious, high standards, strict',
+                _meaning: {
+                    _love: 'high standards for love, controlled emotions',
+                    _career: 'stern but righteous mentor, challenged to do your best',
+                    _finance: 'being disciplined with finances, acting logically'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'irrational, dictator, oppressive, inhumane, controlling, cold, ruthless, dishonest',
+                _meaning: {
+                    _love: 'selfish, abusive lover, low standards for love',
+                    _career: 'dominating, power-hungry colleague, irrational work decisions',
+                    _finance: 'irrational financial decisions, lack of financial discipline'
+                },
+            },
+        },
+
+    },
+
+     // SEPARATION SUITS OF PENTACLES
+
+     _aceP: {
+        _name: 'Ace of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'new opportunities, resources, abundance, prosperity, security, stability, manifestation',
+                _meaning: {
+                    _love: 'steady loving relationship, abundance and prosperity in love, privileged couple',
+                    _career: 'new work or business opportunities',
+                    _finance: 'investing in future, new financial journey'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'missed chances, scarcity, deficiency, instability, stinginess, bad investments',
+                _meaning: {
+                    _love: 'loss of emotional stability, money issues in relationship',
+                    _career: 'missed work opportunities, invested in wrong career',
+                    _finance: 'scarcity, bad financial decisions'
+                },
+            },
+        },
+
+    },
+    
+    _2P: {
+        _name: 'Two of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'balancing resources, adaptation, resourcefulness, flexibility, stretching resources',
+                _meaning: {
+                    _love: 'balancing love / work / family, adapting to changes in love',
+                    _career: 'juggling work projects, being resourceful at work',
+                    _finance: 'tight finances, prioritizing bills, unstable finances'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'imbalance, unorganized, overwhelmed, messiness, chaos, overextending',
+                _meaning: {
+                    _love: 'neglecting love, neglecting partner, not focused on love',
+                    _career: 'being overworked, too many projects, things falling through cracks',
+                    _finance: 'too many bills, cant keep up with payments'
+                },
+            },
+        },
+
+    },
+    
+    _3P: {
+        _name: 'Three of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'teamwork, shared goals, collaboration, apprenticeship, effort, pooling energy',
+                _meaning: {
+                    _love: 'doing projects with partner, feeling like a team, love at work / creative hobbies',
+                    _career: 'working as team, collaborates with others, diverse skill sets and opinions',
+                    _finance: 'learning about finances, getting advice on creating budget '
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'lack of cohesion, lack of teamwork, apathy, poor motivation, conflict, ego, competition',
+                _meaning: {
+                    _love: 'conflicts in practical life, not being a good teammate in love',
+                    _career: 'stress and frustration amongst colleagues, office politics',
+                    _finance: 'stress and frustration amongst colleagues, office politics'
+                },
+            },
+        },
+
+    },
+    
+    _4P: {
+        _name: 'Four of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'possessiveness, insecurity, hoarding, stinginess, stability, security, savings, materialism, wealth, frugality, boundaries, guardedness',
+                _meaning: {
+                    _love: 'clingy lover, jealousy, feeling insecure, holding onto past',
+                    _career: 'impostor syndrome, paranoia, avoiding collaboration',
+                    _finance: 'stable finances, frugality, saving for future'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'generosity, giving, spending, openness, financial insecurity, reckless spending',
+                _meaning: {
+                    _love: 'overcoming jealousy, release from past lovers',
+                    _career: 'generosity with colleagues, risky work decisions',
+                    _finance: 'spending, donating, sharing resources'
+                },
+            },
+        },
+
+    },
+    
+    _5P: {
+        _name: 'Five of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'hardship, loss, isolation, feeling abandoned, adversity, struggle, unemployment, alienation, disgrace',
+                _meaning: {
+                    _love: 'isolation, loneliness, feeling distant, depression',
+                    _career: 'work hardships, isolation from colleagues, outcast',
+                    _finance: 'poverty, debt, bankruptcy, tight finances'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'keywpositive changes, recovery from loss, overcoming adversity, forgiveness, feeling welcomedords',
+                _meaning: {
+                    _love: 'improved love life, opening yourself to others',
+                    _career: 'friendship at work, end of work hardships',
+                    _finance: 'recovery from loss, saving, paying debts'
+                },
+            },
+        },
+
+    },
+    
+    _6P: {
+        _name: 'Six of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'generosity, charity, community, material help, support, sharing, giving and receiving, gratitude',
+                _meaning: {
+                    _love: 'supportive relationship, generous lover',
+                    _career: 'mentor, being a valued employee, investors',
+                    _finance: 'financial support, donations'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'power dynamics, abuse of generosity, strings attached gifts, inequality, extortion',
+                _meaning: {
+                    _love: 'unfair power dynamics, taking advantage of love, controlling lover',
+                    _career: 'hidden agendas, quid pro quo, sucking up to bosses',
+                    _finance: 'lack of help, unfair loans, gifts with strings attached, resentment'
+                },
+            },
+        },
+
+    },
+    
+    _7P: {
+        _name: 'Seven of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'harvest, rewards, results, growth, progress, perseverance, patience, planning',
+                _meaning: {
+                    _love: 'putting work into love, friendship turns to romance',
+                    _career: 'progressing to goals, evaluating progress',
+                    _finance: 'putting in effort to finances, slow and steady investment'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'unfinished work, procrastination, low effort, waste, lack of growth, setbacks, impatience, lack of reward',
+                _meaning: {
+                    _love: 'no results from love, can’t force love',
+                    _career: 'no results in work efforts, stagnant career',
+                    _finance: 'losses, little financial compensation'
+                },
+            },
+        },
+
+    },
+    
+    _8P: {
+        _name: 'Eight of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'skill, talent, craftsmanship, quality, high standards, expertise, mastery, commitment, dedication, accomplishment',
+                _meaning: {
+                    _love: 'achieved relationship goal, cultivating relationship',
+                    _career: 'dedication, promotion, developing skills, showing talent',
+                    _finance: 'financial rewards, becoming financially independent'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'lack of quality, rushed job, bad reputation, lack of motivation, mediocrity, laziness, low skill, dead-end job',
+                _meaning: {
+                    _love: 'not putting effort into love, neglecting relationship',
+                    _career: 'little motivation, tedious job, low quality work',
+                    _finance: 'careless about finances, overspending'
+                },
+            },
+        },
+
+    },
+    
+    _9P: {
+        _name: 'Nine of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'rewarded efforts, success, achievement, independence, leisure, material security, self-sufficiency',
+                _meaning: {
+                    _love: 'high standards for partners, balance of love and independence',
+                    _career: 'achievement in career, hard work paid off, success',
+                    _finance: 'financial abundance, property purchases'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'being guarded, living beyond means, material instability, reckless spending, superficiality',
+                _meaning: {
+                    _love: 'fear of giving up independence, being guarded in love',
+                    _career: 'desire to succeed without work, no work-life balance',
+                    _finance: 'overspending, impulse purchases, desire for easy money'
+                },
+            },
+        },
+
+    },
+    
+    _10P: {
+        _name: 'Ten of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'legacy, roots, family, ancestry, inheritance, windfall, foundations, privilege, affluence, stability, tradition',
+                _meaning: {
+                    _love: 'financially stable couple, relationship milestones, family approval',
+                    _career: 'creating lasting career, stable future',
+                    _finance: 'windfall, inheritance, developing stable financial future'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'family disputes, bankruptcy, debt, fleeting success, conflict over money, instability, breaking traditions',
+                _meaning: {
+                    _love: 'conflict between love and family, outside opinions of love',
+                    _career: 'company dissolution, debt, unstable career',
+                    _finance: 'debt, financial loss, family disputes over money'
+                },
+            },
+        },
+
+    },
+    
+    _pP: {
+        _name: 'Page of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'ambitious, diligent, goal oriented, planner, consistent, star student, studious, grounded, loyal, faithful, dependable',
+                _meaning: {
+                    _love: 'quiet, steady, diligent lover, dedication in relationship',
+                    _career: 'making plans to achieve ambitions, big dreams, training',
+                    _finance: 'setting good habits with finances'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'foolish, immature, irresponsible, lazy, underachiever, procrastinator, missed chances, poor prospects',
+                _meaning: {
+                    _love: 'lack of commitment, boredom, monotonous relationship',
+                    _career: 'avoiding work, lazy, unmotivated, wants success without work',
+                    _finance: 'financial insecurity, financial irresponsible'
+                },
+            },
+        },
+
+    },
+    
+    _knightP: {
+        _name: 'Knight of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'practical, reliable, efficient, stoic, slow and steady, hard-working, committed, patient, conservative',
+                _meaning: {
+                    _love: 'loyal but stubborn lover, steady, secure relationship',
+                    _career: 'focus and drive, slow and steady work, hard work',
+                    _finance: 'slow and steady financial growth, conservation, frugality'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'workaholic, laziness, dull, boring, no initiative, cheap, irresponsible, gambler, risky investments',
                 _meaning: {
                     _love: 'love',
                     _career: 'career',
@@ -1329,27 +2062,54 @@ const tarot = {
 
     },
     
-    _kingC: {
-        _name: 'King of Wands',
+    _qP: {
+        _name: 'Queen of Pentacles',
         _arcana: 'Minor Arcana',
-        _suit: 'Suit of Wands',
+        _suit: 'Suit of Pentacles',
         _position: {
             _upright: {
                 _position: 'upright',
-                _keywords: 'keywords',
+                _keywords: 'generous, caring, nurturing, homebody, good business sense, practical, comforting, welcoming, sensible, luxurious',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'stability, abundance, nurturing, kind partner, domestic comfort',
+                    _career: 'talented business person, mentor, colleague',
+                    _finance: 'financial security, responsible with finances, good deals'
                 },
             },
             _reversed: {
                 _position: 'reversed',
-                _keywords: 'keywords',
+                _keywords: 'selfish, unkempt, jealous, insecure, greedy, materialistic, gold digger, intolerant, self-absorbed, envious',
                 _meaning: {
-                    _love: 'love',
-                    _career: 'career',
-                    _finance: 'finance'
+                    _love: 'shallow and selfish partner, relationship for wrong reasons',
+                    _career: 'bad business partner, unreliable or jealous colleague',
+                    _finance: 'money mismanagement, hoarding'
+                },
+            },
+        },
+
+    },
+    
+    _kingP: {
+        _name: 'King of Pentacles',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Pentacles',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'abundance, prosperity, security, ambitious, safe, kind, patriarchal, protective, businessman, provider, sensual, reliable',
+                _meaning: {
+                    _love: 'generous provider, serious relationship, emotionally and financially secure',
+                    _career: 'success, encouraging mentor, referrals, good reputation',
+                    _finance: 'financial milestone, saving, investing, supporting loved ones, indulging'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'greed, materialistic, wasteful, chauvanist, poor financial decisions, gambler, exploitative, possessive',
+                _meaning: {
+                    _love: 'materialistic, greedy lover, being used, controlling',
+                    _career: 'poor reputation, unsuccessful at work, being discouraged',
+                    _finance: 'financial loss, debt, poor financial decisions, stinginess'
                 },
             },
         },
