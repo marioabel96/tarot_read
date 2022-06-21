@@ -4,7 +4,6 @@ const tarot = myModule.tarot;
 const arcana = myModule.arcana;
 
 
-
 // STEP 1: SHUFFLE CARDS
 // Function that shuffle cards using Fisher-Yates algorithm
 const fisherYates = (toShuffle = []) => {
@@ -15,13 +14,13 @@ const fisherYates = (toShuffle = []) => {
     return toShuffle;
     // source: https://medium.com/javascript-by-doing/learn-fisher-yates-shuffle-in-javascript-275881d36650
   }
-  
-let cards = fisherYates(Object.keys(tarot)).slice(0,3)
+
 //console.log(cards); //Should return cards shuffled
 
 
 // STEP 2: LET USER CUT CARDS-------------------------need entry :(
-    // so we skip it for now
+    // so we skip it for now and we do a slice to the 3 first cards
+let cards = fisherYates(Object.keys(tarot)).slice(0,3)
 
 
 // STEP 3: RETURN THE POSTION OF THE CARD (UPRIGHT OR REVRSED)
@@ -40,6 +39,7 @@ function randomPosition(cards) {
 }
 const positions = randomPosition(cards); // should return array of postions to match cards
 //console.log(positions) 
+
 
 // STEP 4: READ THE CARDS
 // the type of card split + the propierties of the split

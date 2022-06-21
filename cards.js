@@ -596,10 +596,390 @@ const tarot = {
     },
 
 
-// SUITS OF WANDS
+// SEPARATION SUITS OF WANDS
 
     _aceW: {
         _name: 'Ace of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'inspiration, creative spark, new initiative, new passion, enthusiasm, energy',
+                _meaning: {
+                    _love: 'excitement and passion in love, flirtation, romance, attraction',
+                    _career: 'inspired at work, creative projects, passion for work',
+                    _finance: 'financial relief, end to struggles, inspiration in making money'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'delays, blocks, lack of passion, lack of energy, hesitancy, creative blocks',
+                _meaning: {
+                    _love: 'short-term passionate love affair, lack of excitement in love',
+                    _career: 'lacking inspiration at work, feeling uncreative, lack of progress',
+                    _finance: 'risky financial decisions, financial losses'
+                },
+            },
+        },
+
+    },
+    
+    _2W: {
+        _name: 'Two of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'planning, first steps, making decisions, leaving comfort, taking risks',
+                _meaning: {
+                    _love: 'setting romantic goals, making plans in love, planning future together',
+                    _career: 'planning your career, taking first steps in your career, envisioning dreams',
+                    _finance: 'planning your long term financial future, laying foundations'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'bad planning, overanalyzing, not taking action, playing it safe, avoiding risk',
+                _meaning: {
+                    _love: 'failed romantic plans, lack of long term prospects or ideas of future',
+                    _career: 'unexpected obstacles in career, overanalyzing, not taking action on plans',
+                    _finance: 'lack of control regarding finances, failed financial planning'
+                },
+            },
+        },
+
+    },
+    
+    _3w: {
+        _name: 'Three of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'momentum, confidence, expansion, growth, foresight, looking ahead',
+                _meaning: {
+                    _love: 'next stage in relationship, romantic momentum, creating lasting foundation',
+                    _career: 'new horizons in career, expanding your career options',
+                    _finance: 'expanding views about finances, expanding financial goals'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'restriction, limitations, lack of progress, obstacles, delays, frustration',
+                _meaning: {
+                    _love: 'frustrations or obstacles in love, learning to compromise in love',
+                    _career: 'obstacles in career path, lack of growth and challenge, feeling caged',
+                    _finance: 'delays in achieving financial goals'
+                },
+            },
+        },
+
+    },
+    
+    _4w: {
+        _name: 'Four of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'community, home, celebrations, reunions, parties, gatherings, stability, belonging',
+                _meaning: {
+                    _love: 'weddings, engagements, gatherings and public celebrations of love',
+                    _career: 'feeling supported by colleagues, office parties, bonding with colleagues',
+                    _finance: 'financially supporting loved ones, financial stability and comfort'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'lack of support, instability, feeling unwelcome, transience, lack of roots, home conflict',
+                _meaning: {
+                    _love: 'conflict between family, community and love life, fear of public commitment',
+                    _career: 'workplace conflicts between colleagues, office conflicts',
+                    _finance: 'unstable finances, supporting family or loved ones can be a burden'
+                },
+            },
+        },
+
+    },
+    
+    _5w: {
+        _name: 'Five of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'conflict, competition, arguments, aggression, tension, rivals, clashes of ego',
+                _meaning: {
+                    _love: 'competition between suitors, conflict between lovers, playful banter',
+                    _career: 'competition between colleagues, competitive work environment, conflict',
+                    _finance: 'financial instability, conflicts about money'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'end of conflict, cooperation, agreements, truces, harmony, peace, avoiding conflict',
+                _meaning: {
+                    _love: 'avoiding conflict, trying to keep peace in relationship, resolution',
+                    _career: 'competition or conflict at workplace is resolved, avoiding work conflict',
+                    _finance: 'peace after financial stress, escalation in conflicts about money'
+                },
+            },
+        },
+
+    },
+    
+    _6w: {
+        _name: 'Six of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'success, victory, triumph, rewards, recognition, praise, acclaim, pride',
+                _meaning: {
+                    _love: 'success at love, fulfilling a relationship goal',
+                    _career: 'career achievement, project completion, being rewarded',
+                    _finance: 'financial stability, financial rewards'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'failure, lack of recognition, no rewards, lack of achievement',
+                _meaning: {
+                    _love: 'feeling unloved, feeling neglected, being overlooked',
+                    _career: 'failed work project, unrewarded work, unmet career goal',
+                    _finance: 'financial loss, failed investment, bad purchase'
+                },
+            },
+        },
+
+    },
+    
+    _7w: {
+        _name: 'Seven of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'protectiveness, standing up for yourself, defending yourself, protecting territory',
+                _meaning: {
+                    _love: 'setting boundaries in relationship, fighting for romance',
+                    _career: 'fighting off competition, defending your position, facing challengers',
+                    _finance: 'protecting your financial stability, long term success'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'giving up, admitting defeat, yielding, lack of self belief, surrender',
+                _meaning: {
+                    _love: 'defensiveness, denial in love, a breakup from external pressure',
+                    _career: 'failure to hold your ground, being overcome by competition',
+                    _finance: 'some loss of savings, overconfidence leading to loss'
+                },
+            },
+        },
+
+    },
+    
+    _8w: {
+        _name: 'Eight of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'movement, speed, progress, quick decisions, sudden changes, excitement',
+                _meaning: {
+                    _love: 'romantic life picking up pace, excitement, surprises in love',
+                    _career: 'quick progress at work, travelling for work, motivation, impact',
+                    _finance: 'quick movement of money, cash coming in and going out'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'waiting, slowness, chaos, delays, losing momentum, hastiness, being unprepared',
+                _meaning: {
+                    _love: 'misunderstandings, delays in love, hectic pace, confusion',
+                    _career: 'career stagnation, lost chances, overwhelmed by job',
+                    _finance: 'slow flow of money, lack of patience for financial growth'
+                },
+            },
+        },
+
+    },
+    
+    _9w: {
+        _name: 'Nine of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'last stand, persistence, grit, resilience, perseverance, close to success, fatigue',
+                _meaning: {
+                    _love: 'love requiring hard work, love isn’t easy, self-improvement',
+                    _career: 'exhaustion from work, project nearly complete, feeling drained',
+                    _finance: 'financial pressure, economic duress, temporary pressure'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'stubbornness, rigidity, defensiveness, refusing compromise, giving up',
+                _meaning: {
+                    _love: 'relationship failing despite putting in work, one partner putting in work',
+                    _career: 'feeling drained and fatigued at work, struggling at work, nearing burnout',
+                    _finance: 'avoiding financial pressure, trying to escape financial stress'
+                },
+            },
+        },
+
+    },
+    
+    _10w: {
+        _name: 'Ten of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'burden, responsibility, duty, stress, obligation, burning out, struggles',
+                _meaning: {
+                    _love: 'heavy burden of love, love creates responsibility, stress creates issues in relationship',
+                    _career: 'being overworked, work burdens being carried alone, needing help from colleagues',
+                    _finance: 'financial burden, large unavoidable expenses, struggling daily'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'failure to delegate, shouldering too much responsibility, collapse, breakdown',
+                _meaning: {
+                    _love: 'failure to share burdens with partner, finding emotional support from partner',
+                    _career: 'relief from work burdens, finding support, delegating tasks, burn out',
+                    _finance: 'relief from financial burden, finding assistance, deeper economic trouble'
+                },
+            },
+        },
+
+    },
+    
+    _pW: {
+        _name: 'Page of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'adventure, excitement, fresh ideas, cheerfulness, energetic, fearless, extroverted',
+                _meaning: {
+                    _love: 'possibilities and adventures in love, lively lover, fleeting romance',
+                    _career: 'new position or project, taking risks at work, eagerness for challenge',
+                    _finance: 'small financial gifts, temptations regarding spending'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'hasty, impatient, lacking ideas, tantrums, laziness, boring, unreliable, distracted',
+                _meaning: {
+                    _love: 'failure to commit, unreliable lover, aimless search for love',
+                    _career: 'boredom with job, lack of vigor in pursuing career goals',
+                    _finance: 'financial instability, overspending in past creating problems now'
+                },
+            },
+        },
+
+    },
+    
+    _knightW: {
+        _name: 'Knight of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'courageous, energetic, charming, hero, rebellious, hot tempered, free spirit',
+                _meaning: {
+                    _love: 'fearless, courageous lover, difficult to commit, rash, erratic relationship',
+                    _career: 'passion and energy for work, brave decisions, new business favored',
+                    _finance: 'sudden influx of money, using finances for travel, expanding horizons'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'arrogant, reckless, impatient, lack of self control, passive, volatile, domineering',
+                _meaning: {
+                    _love: 'running from commitment, impatience, unstable relationship',
+                    _career: 'lacking direction in career, rushing through jobs, unreliable work',
+                    _finance: 'overconfident about money, wasting funds, financial loss'
+                },
+            },
+        },
+
+    },
+    
+    _qW: {
+        _name: 'Queen of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'confident, self-assured, passionate, determined, social, charismatic, vivacious, optimistic',
+                _meaning: {
+                    _love: 'independent, cheerful and confident lover, openness in relationship',
+                    _career: 'determination and passion at work, inspiring or leading others',
+                    _finance: 'strong financial decisions, confidence making financial decisions'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'demanding, vengeful, low confidence, jealous, selfish, temperamental, bully',
+                _meaning: {
+                    _love: 'selfish and demanding lover, jealousy, dominating lover, arguments',
+                    _career: 'lack of motivation in career, selfish or jealous colleague',
+                    _finance: 'bad financial decisions, greediness, overspending'
+                },
+            },
+        },
+
+    },
+    
+    _kingW: {
+        _name: 'King of Wands',
+        _arcana: 'Minor Arcana',
+        _suit: 'Suit of Wands',
+        _position: {
+            _upright: {
+                _position: 'upright',
+                _keywords: 'leadership, vision, big picture, taking control, daring decisions, boldness, optimism',
+                _meaning: {
+                    _love: 'energetic, charismatic lover, taking the lead in love',
+                    _career: 'achievement in career, respected position, mentorship',
+                    _finance: 'financial stability, financial wisdom, generosity to others'
+                },
+            },
+            _reversed: {
+                _position: 'reversed',
+                _keywords: 'forceful, domineering, tyrant, vicious, powerless, ineffective, weak leader',
+                _meaning: {
+                    _love: 'arrogant, bossy lover, control issues, forceful lover',
+                    _career: 'lack of leadership at work, depending on others, passiveness at work',
+                    _finance: 'not taking charge of your finances, passiveness, no financial goals'
+                },
+            },
+        },
+
+    },
+
+    // SEPARATION SUITS OF CUPS
+
+    _aceC: {
+        _name: 'Ace of Cups',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
         _position: {
@@ -625,7 +1005,7 @@ const tarot = {
 
     },
     
-    _2W: {
+    _2C: {
         _name: 'Two of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -652,7 +1032,7 @@ const tarot = {
 
     },
     
-    _3w: {
+    _3C: {
         _name: 'Three of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -679,7 +1059,7 @@ const tarot = {
 
     },
     
-    _4w: {
+    _4C: {
         _name: 'Four of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -706,7 +1086,7 @@ const tarot = {
 
     },
     
-    _5w: {
+    _5C: {
         _name: 'Five of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -733,7 +1113,7 @@ const tarot = {
 
     },
     
-    _6w: {
+    _6C: {
         _name: 'Six of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -760,7 +1140,7 @@ const tarot = {
 
     },
     
-    _7w: {
+    _7C: {
         _name: 'Seven of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -787,7 +1167,7 @@ const tarot = {
 
     },
     
-    _8w: {
+    _8C: {
         _name: 'Eight of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -814,7 +1194,7 @@ const tarot = {
 
     },
     
-    _9w: {
+    _9C: {
         _name: 'Nine of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -841,7 +1221,7 @@ const tarot = {
 
     },
     
-    _10w: {
+    _10C: {
         _name: 'Ten of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -868,7 +1248,7 @@ const tarot = {
 
     },
     
-    _pW: {
+    _pC: {
         _name: 'Page of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -895,7 +1275,7 @@ const tarot = {
 
     },
     
-    _knightW: {
+    _knightC: {
         _name: 'Knight of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -922,7 +1302,7 @@ const tarot = {
 
     },
     
-    _qW: {
+    _qC: {
         _name: 'Queen of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',
@@ -949,7 +1329,7 @@ const tarot = {
 
     },
     
-    _kingW: {
+    _kingC: {
         _name: 'King of Wands',
         _arcana: 'Minor Arcana',
         _suit: 'Suit of Wands',

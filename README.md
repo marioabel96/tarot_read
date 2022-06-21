@@ -40,3 +40,5 @@ Tarot Reading 3 card split
 ESPECIAL MESSAGE IF ALL YOUR CARDS ARE FROM THE MAJOR ARCANA OR SAME SUIT 
 
 fihser yates link every permutation is waqully pssible
+
+https://en.wikipedia.org/wiki/Tarot
