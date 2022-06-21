@@ -2124,7 +2124,7 @@ const tarot = {
 
 
 
-
+// arcana info
 const arcana = {
     _set: {
         'Major Arcana': 'this group of cards represent the pivotal events of our lives. Associated with the major themes and lessons of life.',
@@ -2144,97 +2144,3 @@ const arcana = {
 
 exports.tarot = tarot;
 exports.arcana = arcana;
-
-
-
-
-/*
-// Esta es la que necesitp
-function pickRandomProperty(obj) {
-    var result;
-    var count = 0;
-    for (var prop in obj)
-        if (Math.random() < 1/++count)
-           result = prop;
-    return result;
-}
-
-
-// step 1: shuffle cards 
-// Function that shuffle cards using Fisher-Yates algorithm
-const fisherYates = (toShuffle = []) => {
-    for (let i = (toShuffle.length - 1); i > 0; i -= 1) {
-      const randomIndex = Math.floor(Math.random() * (i + 1));
-      [toShuffle[i], toShuffle[randomIndex]] = [toShuffle[randomIndex], toShuffle[i]];
-    }
-    return toShuffle;
-    // source: https://medium.com/javascript-by-doing/learn-fisher-yates-shuffle-in-javascript-275881d36650
-  }
-  
-let cards = fisherYates(Object.keys(tarot)).slice(0,3)
-console.log(cards); //Should return cards shuffled
-
-
-// step 2: let user cut cards -------------------------need entry :(
-    // so we skip it for now
-
-
-
-// step 3: return postion upright or reversed for each
-function randomPosition(cards) {
-    let position = [];
-    for (i = 0; i < cards.length; i++) {
-        let random = Math.floor(Math.random()*2)
-        if (random === 1) {
-            position.push('_upright')
-        } else {
-            position.push('_reversed')
-        }
-    }
-
-    return position
-}
-const positions = randomPosition(cards); // should return array of postions to match cards
-console.log(positions) 
-
-
-
-// test 
-console.log(tarot[cards[0]]._name) // log first card
-console.log(tarot[cards[0]]._arcana) // log Arcana
-console.log(tarot[cards[0]]._suit) // log suit no suit for majors
-console.log('Position: '+ tarot[cards[0]]._position[positions[0]]._position) //log first position
-console.log('This card indicates signs of: ' + tarot[cards[0]]._position[positions[0]]._keywords) //log keywords
-
-
-/*
-
-
-//postions total tarot._cards.
-//console.log(tarot.cards.magician.position.upright.meaning)
-
-var randomProperty = function (obj) {
-    var keys = Object.keys(obj);
-    return obj[keys[ keys.length * Math.random() << 0]];
-};
-
-//console.log(Object.keys(tarot._cards))
-let randomCard = pickRandomProperty(tarot._cards)
-
-console.log(randomCard)
-console.log(tarot._cards[randomCard]._name)
-
-*/
-
-/*
-let randomPosition = pickRandomProperty(tarot._cards[randomCard]._position)
-
-console.log(randomPosition)
-//console.log(tarot._cards[randomCard][randomPosition])
-
-console.log(tarot._cards[randomCard])
-keys= Object.keys(tarot)
-console.log(keys)
-*/
-
-// console.log(tarot._cards[keys[2]]._name) Access a specific propiety
