@@ -102,4 +102,5 @@ function specialMessage(cards) {
 
 specialMessage(cards); // Should return special message
 
+
 // console.log(Object.keys(tarot).length)// just to verify te total of cards

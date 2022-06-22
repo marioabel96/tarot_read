@@ -14,9 +14,16 @@ Every time a user runs the program, they get a new, randomized output, the cards
 It is the complete set of 78 cards; each card is saved in an object containing all the properties and meanings. In resume, each card has 6 different meanings that change depending on the position (upright or reversed), also info about the suit, the name of the card and their specific keywords
 
 ## How to use
+- If you have prompt-sync installed run the following command in the app directory:
+```
+node interactive.js
+```
+So you can cut the cards, meet the wizard and his friends. Just press enter to advance. 
+*There is an easter-egg if you give number above 78 in this version*
 
-For the basic app without user input, just open the terminal in the app directory and run the following command:
-```javascript
+
+- For the basic app without user input, just open the terminal in the app directory and run the following command:
+```
 node main.js
 ```
 And it should output a Tarot Reading of 3 cards and the meaning of each one, example:
@@ -58,5 +65,6 @@ must be preserved. Contributors provide an express grant of patent rights.*
 ### Sources 
 
 - https://labyrinthos.co/blogs/tarot-card-meanings-list
+- https://www.asciiart.eu
 
 
